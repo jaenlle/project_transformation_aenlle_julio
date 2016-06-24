@@ -34,14 +34,8 @@ p, ul, ol {
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
-}
-
-a:hover {
 }
 
 #wrapper {
@@ -53,7 +47,7 @@ a:hover {
     margin: 0px auto;
 }
 
-/* Header */
+/*  -------------------------------------------------------------- Header */
 
 #header-wrapper {
     overflow: hidden;
@@ -66,7 +60,7 @@ a:hover {
     padding: 0px 0px;
 }
 
-/* Logo */
+/*  -------------------------------------------------------------- Logo */
 
 #logo {
     float: left;
@@ -74,9 +68,6 @@ a:hover {
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-}
-
-#logo h1, #logo p {
 }
 
 #logo h1 {
@@ -110,54 +101,7 @@ a:hover {
     color: #000000;
 }
 
-/* Splash */
-
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0px auto;
-}
-
-/* Search */
-
-#search {
-    float: right;
-    width: 280px;
-    height: 60px;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #E7EBED;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5D781D;
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #B9B9B9;
-    color: #000000;
-}
-
-/* Menu */
+/*  -------------------------------------------------------------- Menu */
 
 #menu {
     float: right;
@@ -201,10 +145,7 @@ a:hover {
     color: #FFFFFF;
 }
 
-#menu .current_page_item a {
-}
-
-/* Page */
+/*  -------------------------------------------------------------- Page */
 
 #page {
     width: 1000px;
@@ -212,7 +153,7 @@ a:hover {
     padding: 30px 0px;
 }
 
-/* Content */
+/*  -------------------------------------------------------------- Content */
 
 #content {
     float: right;
@@ -254,9 +195,6 @@ a:hover {
     float: right;
 }
 
-.post .meta a {
-}
-
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
@@ -290,7 +228,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* Sidebar */
+/*  -------------------------------------------------------------- Sidebar */
 
 #sidebar {
     float: left;
@@ -357,28 +295,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
-/* Three Column Footer Content */
+/*  -------------------------------------------------------------- Three Column Footer Content */
 
 #footer-content {
     overflow: hidden;
@@ -405,7 +322,6 @@ a:hover {
     color: #262626;
 }
 
-
 #footer-content #fbox1 {
     float: left;
     width: 300px;
@@ -422,26 +338,7 @@ a:hover {
     width: 300px;
 }
 
-#footer-content a {
-}
-
-#column1 {
-    float: left;
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-    width: 280px;
-}
-
-#column3 {
-    float: right;
-    width: 260px;
-}
-
-/* Footer */
+/* -------------------------------------------------------------- Footer */
 
 #footer {
     height: 140px;
@@ -506,10 +403,6 @@ a:hover {
     height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
-
-#banner .content {
-}
-
 
 .list-style1 {
     margin: 0px;
