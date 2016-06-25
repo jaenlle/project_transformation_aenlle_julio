@@ -42,11 +42,6 @@ a {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
-.container {
-    width: 1000px;
-    margin: 0px auto;
-}
-
 /*  -------------------------------------------------------------- Header */
 
 #header-wrapper {
@@ -54,9 +49,8 @@ a {
 }
 
 header {
-    width: 1000px;
     height: 150px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 0px 0px;
 }
 
@@ -145,7 +139,6 @@ nav a:hover, nav .current_page_item a {
 /*  -------------------------------------------------------------- Page */
 
 #page {
-    width: 1000px;
     margin: 0 auto;
     padding: 30px 0px;
 }
