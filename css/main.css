@@ -6,6 +6,7 @@ html {
     box-sizing: inherit;
 }
 
+/* maintains a max value at which width will be contained */
 .site-container {
     max-width: 1000px;
 }
@@ -57,9 +58,6 @@ a {
 }
 
 /*  -------------------------------------------------------------- Header */
-
-#header-wrapper {
-}
 
 header {
     margin: 0px auto;
@@ -123,6 +121,7 @@ nav a:hover, nav .current_page_item a {
     color: #FFFFFF;
 }
 
+/* bundles navigation links at a certain width*/
 @media all and (min-width: 500px) {
     nav li {
         display: inline-block;
@@ -130,6 +129,7 @@ nav a:hover, nav .current_page_item a {
     }
 }
 
+/* spreads out navigation links at a certain width*/
 @media all and (min-width: 850px) {
     nav li {
         display: inline-block;
@@ -230,6 +230,7 @@ article  .entry {
     text-decoration: none;
 }
 
+/* places main content and aside side-by-side*/
 @media (min-width: 1000px) {
     main {
         float: right;
@@ -291,12 +292,6 @@ aside h2 {
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
-}
-
-aside p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
-    text-align: justify;
 }
 
 aside a {
