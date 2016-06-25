@@ -6,6 +6,10 @@ html {
     box-sizing: inherit;
 }
 
+.site-container {
+    max-width: 1000px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -127,7 +131,7 @@ nav a:hover, nav .current_page_item a {
 #banner {
     margin: 0px auto;
     width: 100%;
-    background: url(../img/img03.png) no-repeat left bottom;
+    background: url(../img/img03.png);
 }
 
 #banner img {
@@ -284,7 +288,6 @@ aside a:hover {
 /* -------------------------------------------------------------- Footer */
 
 footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
