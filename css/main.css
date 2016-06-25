@@ -301,6 +301,7 @@ aside p {
 
 aside a {
     border: none;
+    text-decoration: none;
 }
 
 aside a:hover {
