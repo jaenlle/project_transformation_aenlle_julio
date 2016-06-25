@@ -3,7 +3,7 @@
 
 **[Link to GitHub repo](https://github.com/jaenlle/project_transformation_aenlle_julio)**
 
-**[Link to project on web host](julioaenlle.net/project_transformation_aenlle_julio)**
+**[Link to project on web host](http://www.julioaenlle.net/project_transformation_aenlle_julio/)**
 
 
 
