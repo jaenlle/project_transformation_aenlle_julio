@@ -37,10 +37,6 @@ h2 {
     font-size: 2.8em;
 }
 
-h3 {
-    font-size: 1.6em;
-}
-
 p, ul, ol {
     margin-top: 0;
     line-height: 180%;
@@ -48,6 +44,12 @@ p, ul, ol {
 
 a {
     color: #5E5E5E;
+}
+
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 #wrapper {
@@ -228,11 +230,23 @@ article  .entry {
     text-decoration: none;
 }
 
+@media (min-width: 1000px) {
+    main {
+        float: right;
+        width: calc(100%/ 3 * 2);
+    }
+
+    aside {
+        float: left;
+        width: calc(100% / 3);
+    }
+}
+
 /*  -------------------------------------------------------------- Sidebar */
 
 aside {
     margin: 0px;
-    padding: 30px 10px 0px 10px;
+    padding: 20px 10px 0px 10px;
 }
 
 aside ul {
