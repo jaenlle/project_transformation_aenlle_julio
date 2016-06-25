@@ -101,9 +101,6 @@ nav ul {
     line-height: normal;
 }
 
-nav li {
-}
-
 nav a {
     display: block;
     line-height: 100px;
@@ -124,6 +121,20 @@ nav a:hover, nav .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #FFFFFF;
+}
+
+@media all and (min-width: 500px) {
+    nav li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 850px) {
+    nav li {
+        display: inline-block;
+        width: calc(100%/5)
+    }
 }
 
 /*  -------------------------------------------------------------- Banner */
